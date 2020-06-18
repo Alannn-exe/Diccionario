@@ -1,0 +1,25 @@
+
+milista=["Alan", 82, True, "Antonio"]
+print(milista[:])
+print(milista[0])
+print(milista[-2])
+print(milista[1:])
+milista.append("sandra")
+print(milista[:])
+milista.insert(2,"Quetzi")
+print(milista[:])
+milista.extend(["Quetzi"])
+print(milista[:])
+print(milista.index("Quetzi"))
+print(milista.index("Alan"))
+print("Quetzi" in milista)
+print(True in milista)
+milista.remove("sandra")
+print(milista[:])
+milista.remove (True)
+print (milista[:])
+milista.pop()
+print(milista[:])
+milista2=[78, 67, "sandra", "Lucia"]
+milista3=(milista+milista2)*3
+print(milista3[:]) 
